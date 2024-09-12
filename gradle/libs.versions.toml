@@ -1,0 +1,96 @@
+[versions]
+adjust-android = "4.28.7"
+agp = "8.3.2"
+androidx-activity-compose = "1.9.2"
+annotation = "1.8.2"
+appcompat = "1.7.0"
+applovin-sdk = "12.6.1"
+audience-network-sdk = "6.17.0"
+constraintlayout = "2.1.4"
+converter-gson = "2.9.0"
+dexter = "6.2.3"
+facebook = "6.17.0.0"
+facebook-adapter = "6.2.1.0"
+firebase-analytics = "22.1.0"
+firebase-crashlytics = "19.0.3"
+gson = "2.10.1"
+kotlin = "1.9.0"
+kotlin-ksp = "1.9.10-1.0.13"
+core-ktx = "1.13.1"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.2.1"
+espresso-core = "3.6.1"
+landscapist-glide = "2.2.2"
+lifecycle-extensions = "2.2.0"
+lifecycle-runtime-ktx = "2.8.5"
+activity-compose = "1.9.2"
+compose-bom = "2024.09.00"
+lifecycle-viewmodel-compose = "2.8.5"
+logging-interceptor = "4.9.1"
+material-icons-extended = "1.7.1"
+okhttp = "4.9.3"
+play-services-ads = "23.3.0"
+prdownloader = "1.0.1"
+room-ktx = "2.6.1"
+room-runtime = "2.6.1"
+runtime-livedata = "1.7.1"
+sdp-android = "1.1.0"
+shimmer = "0.5.0"
+ssp-android = "1.0.6"
+ui-viewbinding = "1.7.0"
+
+[libraries]
+adjust-android = { module = "com.adjust.sdk:adjust-android", version.ref = "adjust-android" }
+androidx-activity-compose-v140 = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity-compose" }
+androidx-annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle-common-java8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycle-runtime-ktx" }
+androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycle-extensions" }
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime", version.ref = "lifecycle-runtime-ktx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room-ktx" }
+androidx-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "runtime-livedata" }
+androidx-ui-viewbinding = { module = "androidx.compose.ui:ui-viewbinding", version.ref = "ui-viewbinding" }
+applovin-sdk = { module = "com.applovin:applovin-sdk", version.ref = "applovin-sdk" }
+audience-network-sdk = { module = "com.facebook.android:audience-network-sdk", version.ref = "audience-network-sdk" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converter-gson" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+dexter = { module = "com.karumi:dexter", version.ref = "dexter" }
+facebook = { module = "com.google.ads.mediation:facebook", version.ref = "facebook" }
+facebook-adapter = { module = "com.applovin.mediation:facebook-adapter", version.ref = "facebook-adapter" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebase-analytics" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics", version.ref = "firebase-crashlytics" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+landscapist-glide = { module = "com.github.skydoves:landscapist-glide", version.ref = "landscapist-glide" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle-viewmodel-compose" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "play-services-ads" }
+prdownloader = { module = "com.github.amitshekhariitbhu:PRDownloader", version.ref = "prdownloader" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "converter-gson" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "logging-interceptor" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "room-ktx" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-runtime" }
+sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdp-android" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
+ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "ssp-android" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+material = { group = "androidx.compose.material", name = "material" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+material-icon = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "material-icons-extended" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinKSP = { id = "com.google.devtools.ksp", version.ref = "kotlin-ksp" }
+

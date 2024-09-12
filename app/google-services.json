@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573703354520",
+    "project_id": "video-call-prank-80d97",
+    "storage_bucket": "video-call-prank-80d97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573703354520:android:7051ed0f7c2f62525138ed",
+        "android_client_info": {
+          "package_name": "com.app.incroyable.videocall_prank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX4R-A5PlO3cqXKlemBSmJ6g39oOgjdmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
